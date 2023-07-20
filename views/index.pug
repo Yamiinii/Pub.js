@@ -1,0 +1,67 @@
+doctype html
+html
+  head
+    link(rel="stylesheet" type="text/css" href="../static/style.css")
+  body
+    nav#navbar
+      ul
+        li#logo
+          img(src="/static/img/logo.png")
+        li #[a(href="/") Home]
+        li #[a(href="/") About]
+        li #[a(href="/") Services]
+        li #[a(href="/") Contact Us]
+    section#introSection
+      div.introtext
+        div
+          | Welcome to Tutor Academy
+        div.small
+          | "Empowering Minds, Inspiring Futures: A Journey to Success."
+    section#missionSection
+      h2 Our Mission
+      div.missions
+        div.card
+          h3 One to One tutoring
+          div.card-box
+            div.card-img
+              img(src="/static/img/one.webp")
+            div.card-content
+              p "Unlock Your Full Potential with Our Premium Tuition Services: Expert Tutors, Personalized Approach, Proven Results, Academic Excellence, Boost Your Grades, and Achieve Success Today!"
+
+        div.card
+          h3 Assessment Technologies
+          div.card-box
+            div.card-img
+              img(src="/static/img/techwebp.webp")
+            div.card-content
+              p Data-driven insights, adaptive testing, comprehensive analysis, real-time feedback, personalized learning plans, enhancing education outcomes, measuring progress effectively, and optimizing student success.
+
+        div.card
+          h3 Personalized Homework
+          div.card-box
+            div.card-img
+              img(src="/static/img/asses.webp")
+            div.card-content
+              p Tailored assignments for optimal growth. Customized tasks to reinforce learning. Individualized practice for mastery. Personalized homework to nurture student potential. Focused tasks for academic success.
+    //- section#sponsorsSection
+    //-   h1 Our Sponsors
+    //-   img(src="/static/img/images.jpeg", alt="Sponsor Image", class="spImage")
+    //-   img(src="/static/img/images.jpeg", alt="Sponsor Image", class="spImage")
+    //-   img(src="/static/img/iimages.jpeg", alt="Sponsor Image", class="spImage")
+    //-   img(src="/static/img/images.jpeg", alt="Sponsor Image", class="spImage")
+    
+    section#contact
+     
+      h1 Contact Us
+        form(action='/add_movie', method='POST')
+             p
+                h5 Name: 
+                input(name='Name', value='', type='text')
+                h5 Contact:
+                input(name='year', value='', type='number')
+                h5 Course:
+                input(name='imdb', value='', type='text')
+                input(value='Submit', type='submit')
+    footer#footer
+      | Copyright © 2023 yaminiTutoringAcademy.com | All Rights Reserved
+    script(src="../static/index.js")

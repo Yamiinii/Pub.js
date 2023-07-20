@@ -1,0 +1,226 @@
+*{
+    padding:0px;
+    margin: 0px;
+}
+#logo{
+    display: flex;
+    color: white;
+    align-items: center;
+    margin: 0 14px;
+    font-size: 28px;
+    margin-right: 40px;
+}
+#logo img{
+    height: 42px;
+    /* filter: invert(1); */
+}
+#inavbar::before {
+    content: "";
+    background-color: black;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    opacity: 0.4;
+}
+
+#navbar{
+    background-color:#FFEAEA;
+    font-family: 'Yeon Sung' ;
+    padding: 16px, 14px;
+    height: 60px;
+}
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+     justify-content: center;
+    align-items: center;
+    padding-top: 8px;
+}
+#navbar li{
+    list-style: none;
+}
+#navbar li a{ 
+   text-decoration: none;
+    padding: 13px 20px;
+    font-size: 20px;
+    font-weight:bolder;
+    color: #9A208C;
+}
+#navbar li a:hover{
+    background-color: #F5C6EC;
+    border-radius: 20px;
+}
+#introSection::before {
+    content: "";
+    background-color: black;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    opacity: 0.4;
+}
+
+#introSection {
+    background: center/cover no-repeat url("/static/img/class.png");
+    height: 648px;
+    background-color: red;
+    position: relative; /* Add position: relative to #introSection */
+}
+
+.introtext {
+    color: #FFEAEA;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'ZCOOL QingKe HuangYou';
+    font-size: 89px;
+    align-items: center;
+    height: 500px;
+    width: 1000px;
+    position: absolute; /* Add position: absolute to center the .introtext */
+    top: 50%; /* Move the .introtext 50% from the top */
+    left: 50%; /* Move the .introtext 50% from the left */
+    transform: translate(-50%, -50%); /* Center the .introtext both horizontally and vertically */
+}
+
+
+#introSection div.small{
+    font-size: 38px;
+    padding: 5px;
+   
+
+}
+
+/* #footer{
+    background-color: black;
+    height: 100px;
+} */
+
+.card{
+    border: 2px solid #9A208C;
+    border-radius: 10px;
+    width: 400px;
+    margin: 23px 50px;
+    height: 310px;
+    color:#804a7c ;
+}
+#missionSection{
+   
+    height: 400px;; 
+    width: 100%;
+    margin: auto;
+    background-color: #FFEAEA;
+}
+
+.missions {
+   
+    display: flex;
+    align-items: center;
+      justify-content: space-between;
+  }
+  
+
+#missionSection h2{
+    font-size: 36px;
+    font-family: 'Yeon Sung' ;
+    text-align: center;
+    padding-top: 12px;
+    color: #9A208C;
+}
+
+.card h3{
+    text-align: center;
+    margin: 0 12px;
+    margin-top: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.card-img{
+    height: 131px;
+    padding: 0 14px;
+    margin: 5px 9px;
+}
+
+.card-img img{
+    height: inherit; 
+    margin-bottom: 10px;
+
+}
+
+#contact {
+    height: 400px;
+    background-color: #f3d1f9a3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  #contact h1 {
+    color: #9A208C;
+    margin-bottom: 20px;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  #contact form {
+    border: 2px solid #9a208c;
+    width: 200px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  #contact form input[type="text"],
+  #contact form input[type="number"] {
+    padding: 5px;
+    margin: 5px;
+    width: 60%;
+    border: 1px solid #9A208C;
+    border-radius: 5px;
+  }
+  
+  #contact form input[type="submit"] {
+    padding: 10px 20px;
+    margin: 10px 10px;
+    background-color: #9A208C;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  
+
+  
+/* #sponsors{
+    height: 120px;
+    max-width: 100px;
+    margin: auto
+} */
+/* 
+.spImage{
+    height: 80px;
+    margin: 20px;
+} */
+
+#footer
+{
+    background-color: #9A208C;
+    color: #F5C6EC;
+    text-align: center;
+}
+
+.card-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height:76%;
+  }
+  
+  .card-content {
+    text-align: center;
+  }
+  
+   
